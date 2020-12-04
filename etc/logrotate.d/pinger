@@ -1,0 +1,11 @@
+
+/var/log/pinger/pinger.log {
+	missingok
+	copytruncate
+        size 1M
+        rotate 3
+	compress
+	dateext
+	notifempty
+
+}
